@@ -2,8 +2,24 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Bebas Neue Regular';
+  src: url('BebasNeueRegular.eot');
+  src: url('BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+  url('BebasNeueRegular.woff') format('woff'),
+  url('BebasNeueRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
 body{
   font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+  max-width: 1140px;
+  margin: auto;
+
 }
 
 .navbar{
@@ -91,3 +107,32 @@ body{
 .header-button{
   height: 100%;
 }
+
+.seporator{
+  background: #5C8EE6;
+  width: 150px;
+  height: 2px;
+}
+
+.header-content{
+  padding-top: 150px;
+  position: relative;
+  z-index: 1;
+  color:white;
+}
+
+.header-title{
+  max-width: 1080px;
+}
+
+.header-text{
+  max-width: 720px;
+}
+
+
+
+
+
+
+
+
